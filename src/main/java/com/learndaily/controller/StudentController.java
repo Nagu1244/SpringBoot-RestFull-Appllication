@@ -23,6 +23,7 @@ public class StudentController {
 private StudentServiceImplementation service;
 	//url: http://localhost:8080/api/student
 	//add List student student
+	//second commit
      @PostMapping("/save")
 	public ResponseEntity<String> createStudent(@RequestBody List<Student> student)
 	{
